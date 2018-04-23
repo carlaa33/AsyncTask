@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
             super.onProgressUpdate(values);
 
             //Actualizar la barra de progreso
-            num.setText(num.getText()+","+values[0]);
+            num.setText(num.getText()+"\n"+values[0]);
         }
 
         @Override
